@@ -33,7 +33,7 @@ CAD and program for a custom handheld force gauge. User interface allows for cha
 **Notes:** 
 - if you use another XIAO microcontroller the Arduino program might need to be updated especially if the one you pick has no Bluetooth capability
 - the mounting bracket used here is for 4040 extrusions but other mounting brackets for either 4040 or 3030 profiles could also be used and are easier to find than Misumi's. Adjust the size of the rectangular hole in the base plate STP file accordingly. File down the tabs of the bracket you used if there are any.
-- check the components you have before buying the kits listed in the BOM, most components such as tactile switchs, resistors, M6 screws, etc do not need to be the exact model from the BOM, if you have already some parts at hand you can probably use them.
+- check the components you have before buying the kits listed in the BOM, most components such as tactile switches, resistors, M6 screws, etc. do not need to be the exact model from the BOM, if you have already some parts at hand you can probably use them.
 
 by Lionel Birglen  <br />
 Polytechnique Montreal, 2026
