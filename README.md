@@ -19,16 +19,16 @@ CAD and program for a custom handheld force gauge. User interface allows for cha
 | Qwiic Scale NAU7802 | 1 |  [Sparkfun](https://www.sparkfun.com/sparkfun-qwiic-scale-nau7802.html) |
 | 0.96in OLED Display | 1 |  [Amazon kit](https://www.amazon.com/ELEGOO-Display-Compact-Self-Luminous-Projects/dp/B0D2RMQQHR) |
 | Protoboard | 1 |  2.54mm pitch [Amazon kit](https://www.amazon.com/ELEGOO-Prototype-Soldering-Compatible-Arduino/dp/B072Z7Y19F) |
-| Tactile switch | 2 | [Amazon kit](https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2)  |
-| Resistor | 2 |  any value between 1k and 10k at 1/4W should be fine, through hole |
+| Tactile switches | 2 | [Amazon kit](https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2)  |
+| Resistors | 2 |  any value between 1k and 10k at 1/4W should be fine, through hole |
 | Load Cell | 1 |  [Robotshop](https://www.robotshop.com/products/type-s-load-cell-100-kg) or [Amazon](https://www.amazon.com/Portable-High-Precision-Pressure-Tension-Weighing/dp/B077YHNNCP) |
 | M6x12 screw w/ washer| 1 |  [Amazon kit](https://www.amazon.com/MklusiveTech-141Pcs-Screw-Kit-Electronics/dp/B0DYF25FF6) |
 | Mounting bracket | 1 |   |
 | M6 hook | 1 | [Amazon](https://www.amazon.com/Faspiroty-Stainless-Question-Hanging-Connecting/dp/B0DKNBMYKB) (optional)  |
 | Base plate | 1 |  3D printed from STEP file |
-| Support | 2 |  3D printed from xxx and xxx |
+| Supports | 2 |  3D printed from xxx and xxx |
 | Self-tapping screws | 16 | for plastics [Amazon kit](https://www.amazon.com/Zmbroll-Self-Tapping-Phillips-Sheetmetal-Electronic/dp/B0F62XS2YC)  |
-| Female header | 4 | 2.54mm pitch [Amazon kit](https://www.amazon.com/Ruibapa-Connector-Assortment-Straight-P-037/dp/B0B96WXT46) |
+| Female headers | 4 | need 1x4, 1x6, 2x7 all with 2.54mm pitch [Amazon kit](https://www.amazon.com/Ruibapa-Connector-Assortment-Straight-P-037/dp/B0B96WXT46) |
 
 by Lionel Birglen  <br />
 Polytechnique Montreal, 2026
