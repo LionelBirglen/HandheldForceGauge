@@ -9,7 +9,7 @@ CAD and program for a custom handheld force gauge. User interface allows for cha
 5. upload and run ForceGauge_Program.ino on XIAO module
 6. use the sensor!
 7. if bluetooth communication is desired run ForceGauge_Python_BLE_Logger.py from your local machine where Python is installed, a window will open displaying the values and recording them.<br/>
-**Note:** local recording of the file will overwrite previous file if it exists, rename your files if you want to keep them! 
+**Note:** local recording will overwrite the previous file if it exists, rename your files if you want to keep them! 
 
 ## Bill of Materials (BOM)
 
