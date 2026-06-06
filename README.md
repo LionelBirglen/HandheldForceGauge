@@ -13,11 +13,11 @@ CAD and program for a custom handheld force gauge. User interface allows for cha
 
 ## Bill of Materials (BOM)
 
-| Name | # | Description 
+| Name | # | Link/Description 
 |---|---|---|
-| XIAO nrf52840 | 1 | https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html |
-| `xarm6_fk.py` / `.m` | 1 |  Forward kinematics → flange + TCP pose in all conventions |
-| `xarm6_ik.py` / `.m` | 1 |  Inverse kinematics — accepts T, RPY, quaternion, or axis-angle |
+| XIAO nrf52840 | 1 | [SeeedStudio](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) |
+| Qwiic Scale NAU7802 | 1 |  [Sparkfun](https://www.sparkfun.com/sparkfun-qwiic-scale-nau7802.html) |
+| 0.96in OLED Display | 1 |  [Amazon](https://www.amazon.com/ELEGOO-Display-Compact-Self-Luminous-Projects/dp/B0D2RMQQHR) |
 | `xarm6_plot.py` / `.m` | 1 |  3-D visualiser with optional TCP trajectory |
 | `xarm6_kinematics_demo.py` / `.m` | 1 |  FK/IK validation + Monte-Carlo accuracy test |
 | `xarm6_plot_demo.py` / `.m` | 1 |  Static pose viewer, IK verification, and animation |
