@@ -30,7 +30,8 @@ CAD and program for a custom handheld force gauge. User interface allows for cha
 | Self-tapping screws | 16 | for plastics, [Amazon kit](https://www.amazon.com/Zmbroll-Self-Tapping-Phillips-Sheetmetal-Electronic/dp/B0F62XS2YC)  |
 | Female headers | 4 | need 1x4, 1x6, 2x7 all with 2.54mm pitch, [Amazon kit](https://www.amazon.com/Ruibapa-Connector-Assortment-Straight-P-037/dp/B0B96WXT46) |
 
-**Note:** 
+**Notes:** 
+- if you use another XIAO microcontroller the Arduino program might need to be updated especially if the one you pick has no Bluetooth capability
 - the mounting bracket used here is for 4040 extrusions but other mounting brackets for either 4040 or 3030 profiles could also be used and are easier to find than Misumi's. Adjust the size of the rectangular hole in the base plate STP file accordingly. File down the tabs of the bracket you used if there are any.
 - check the components you have before buying the kits listed in the BOM, most components such as tactile switchs, resistors, M6 screws, etc do not need to be the exact model from the BOM, if you have already some parts at hand you can probably use them.
 
