@@ -17,11 +17,15 @@ CAD and program for a custom handheld force gauge. User interface allows for cha
 |---|---|---|
 | XIAO nrf52840 | 1 | [SeeedStudio](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) |
 | Qwiic Scale NAU7802 | 1 |  [Sparkfun](https://www.sparkfun.com/sparkfun-qwiic-scale-nau7802.html) |
-| 0.96in OLED Display | 1 |  [Amazon](https://www.amazon.com/ELEGOO-Display-Compact-Self-Luminous-Projects/dp/B0D2RMQQHR) |
-| `xarm6_plot.py` / `.m` | 1 |  3-D visualiser with optional TCP trajectory |
-| `xarm6_kinematics_demo.py` / `.m` | 1 |  FK/IK validation + Monte-Carlo accuracy test |
-| `xarm6_plot_demo.py` / `.m` | 1 |  Static pose viewer, IK verification, and animation |
-| `xarm6_reload.py` | 1 |  Reload all modules after editing `xarm6_params` (Python only) |
+| 0.96in OLED Display | 1 |  [Amazon kit](https://www.amazon.com/ELEGOO-Display-Compact-Self-Luminous-Projects/dp/B0D2RMQQHR) |
+| Protoboard | 1 |  2.54mm pitch [Amazon kit](https://www.amazon.com/ELEGOO-Prototype-Soldering-Compatible-Arduino/dp/B072Z7Y19F) |
+| Tactile switch | 2 | [Amazon kit](https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2)  |
+| Resistor | 2 |  any value between 1k and 10k at 1/4W should be fine, through hole |
+| Load Cell | 1 |  [Robotshop](https://www.robotshop.com/products/type-s-load-cell-100-kg) or [Amazon](https://www.amazon.com/Portable-High-Precision-Pressure-Tension-Weighing/dp/B077YHNNCP) |
+| M6x12 screw w/ washer| 1 |  [Amazon kit](https://www.amazon.com/MklusiveTech-141Pcs-Screw-Kit-Electronics/dp/B0DYF25FF6) |
+| Mounting bracket | 1 |   |
+| M6 hook | 1 | [Amazon](https://www.amazon.com/Faspiroty-Stainless-Question-Hanging-Connecting/dp/B0DKNBMYKB) (optional)  |
+| Base plate | 1 |  3D printed from STEP file |
 
 by Lionel Birglen  <br />
 Polytechnique Montreal, 2026
