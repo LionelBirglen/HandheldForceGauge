@@ -27,8 +27,8 @@ CAD and program for a custom handheld force gauge. User interface allows for cha
 | M6 hook | 1 | [Amazon](https://www.amazon.com/Faspiroty-Stainless-Question-Hanging-Connecting/dp/B0DKNBMYKB) (optional)  |
 | Base plate | 1 |  3D printed from STEP file |
 | Supports | 2 |  3D printed from xxx and xxx |
-| Self-tapping screws | 16 | for plastics [Amazon kit](https://www.amazon.com/Zmbroll-Self-Tapping-Phillips-Sheetmetal-Electronic/dp/B0F62XS2YC)  |
-| Female headers | 4 | need 1x4, 1x6, 2x7 all with 2.54mm pitch [Amazon kit](https://www.amazon.com/Ruibapa-Connector-Assortment-Straight-P-037/dp/B0B96WXT46) |
+| Self-tapping screws | 16 | for plastics, [Amazon kit](https://www.amazon.com/Zmbroll-Self-Tapping-Phillips-Sheetmetal-Electronic/dp/B0F62XS2YC)  |
+| Female headers | 4 | need 1x4, 1x6, 2x7 all with 2.54mm pitch, [Amazon kit](https://www.amazon.com/Ruibapa-Connector-Assortment-Straight-P-037/dp/B0B96WXT46) |
 
 by Lionel Birglen  <br />
 Polytechnique Montreal, 2026
