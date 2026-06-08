@@ -1,14 +1,14 @@
 # Handheld Force Gauge
-CAD and program for a custom handheld force gauge. User interface allows for changing units, zeroing display, recording min/max values. Bluetooth broadcasting of the displayed values and local Python script for realtime display and recording.
+CAD and program for a custom handheld force gauge. User interface allows for changing units, zeroing display, recording min/max values. Bluetooth broadcasting of the displayed values and local Python script for realtime display and recording. The unit is handheld in size but not *truly* handheld since it is powered with the USB-C connector.
 
 ## Instructions
 1. 3D print ForceGauge_BasePlate.stp, Color change for the text layer is suggested
 2. purchase all components, see BOM below
 3. solder protoboard according to ForceGauge_Schematic.pdf
 4. assemble components on protoboard
-5. upload and run ForceGauge_Program.ino on XIAO module
+5. upload and run ForceGauge_Program.ino on XIAO module (compile w/ mbed-enabled)
 6. use the sensor!
-7. if bluetooth communication is desired run ForceGauge_Python_BLE_Logger.py from your local machine where Python is installed, a window will open displaying the values and recording them.<br/>
+7. if bluetooth communication is desired run ForceGauge_Python_BLE_Logger.py from your local machine where Python is installed, a window will open displaying the values and recording them in a csv file with timestamps.<br/>
 **Note:** local recording will overwrite the previous file if it exists, rename your files if you want to keep them! 
 
 ## Bill of Materials (BOM)
@@ -26,7 +26,7 @@ CAD and program for a custom handheld force gauge. User interface allows for cha
 | CHBLFSN8 Mounting bracket | 1 | Baked-on finish (Silver) 43x30 footprint with 8mm holes [Misumi](https://us.misumi-ec.com/vona2/detail/110300449520/) |
 | M6 hook | 1 | [Amazon](https://www.amazon.com/Faspiroty-Stainless-Question-Hanging-Connecting/dp/B0DKNBMYKB) (optional)  |
 | Base plate | 1 |  3D printed from STEP file |
-| Supports | 2 |  3D printed from xxx and xxx |
+| Braces | 2 |  3D printed from ForceGauge_Brace_QwiicScale.step and ForceGauge_Brace_OLEDDisplay.step |
 | Self-tapping screws | 16 | for plastics, [Amazon kit](https://www.amazon.com/Zmbroll-Self-Tapping-Phillips-Sheetmetal-Electronic/dp/B0F62XS2YC)  |
 | Female headers | 4 | need 1x4, 1x6, 2x7 all with 2.54mm pitch, [Amazon kit](https://www.amazon.com/Ruibapa-Connector-Assortment-Straight-P-037/dp/B0B96WXT46) |
 
