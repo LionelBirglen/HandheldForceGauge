@@ -19,8 +19,8 @@ CAD and programs for a custom handheld force gauge. User interface allows for ch
 - power can be provided by a standard phone/laptop usb-c charger or a power bank for maximal portability. Careful though, certain power banks will shut down after a short while because not enough current is pulled. Use a powerbank capable of trickle charging.
 - values provided in the program are set for a 100kg load cell and need to be adjusted for your sensor and/or other load cell.
 - the hook on the left of the aluminium mounting bracket is mean to hold loops of the wires from the load cell to the transducer keeping things tidy.
-
 <br/>
+
 ## Bill of Materials (BOM)
 
 | Name | # | Link/Description 
