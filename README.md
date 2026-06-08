@@ -46,11 +46,11 @@ CAD and programs for a custom handheld force gauge. User interface allows for ch
 - check the components you have laying around before buying the kits listed in the BOM, most components here such as tactile switches, resistors, M6 screws, etc. do not need to be the exact model from the BOM, if you have already some parts at hand you can probably use them.
 
 ## Arduino Library Requirements
-SparkFun Qwiic Scale NAU7802
-Adafruit GFX
-Adafruit SSD1306
-PushButtonTaps
-ArduinoBLE
+SparkFun Qwiic Scale NAU7802<br/>
+Adafruit GFX<br/>
+Adafruit SSD1306<br/>
+PushButtonTaps<br/>
+ArduinoBLE<br/>
 <br/>
 
 by Lionel Birglen  <br />
