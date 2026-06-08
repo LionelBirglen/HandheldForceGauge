@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
 # ---------------------------------------------------------------------
-# BLE identifiers (must match your Arduino sketch)
+# BLE identifiers (must match Arduino sketch)
 # ---------------------------------------------------------------------
 SERVICE_UUID = "19B10010-E8F2-537E-4F6C-D104768A1214"
 CHAR_UUID    = "19B10011-E8F2-537E-4F6C-D104768A1214"
@@ -142,7 +142,7 @@ def main():
         fig,
         update,
         interval=100,          # update plot every 100 ms
-        cache_frame_data=False # avoids the warning you saw earlier
+        cache_frame_data=False 
     )
 
     plt.show()
