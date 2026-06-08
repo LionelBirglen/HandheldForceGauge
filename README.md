@@ -1,6 +1,8 @@
 # Handheld Force Gauge
 CAD and programs for a custom handheld force gauge. User interface allows for changing units, zeroing display, recording min/max values. Bluetooth broadcasting of the displayed values and local Python script for realtime display and recording. The unit is handheld in size but not *truly* hand-held since it needs to be powered through the USB-C connector.
 
+!(Force Gauge Picture)[ForceGauge_Picture.png]
+
 ## Instructions
 1. 3D print ForceGauge_BasePlate.stp, Color change for the text layer is suggested
 2. purchase all components, see BOM below
