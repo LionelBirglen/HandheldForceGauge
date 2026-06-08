@@ -1,5 +1,5 @@
 # Handheld Force Gauge
-CAD and programs for a custom handheld force gauge. User interface allows for changing units, zeroing display, recording min/max values. Bluetooth broadcasting of the displayed values and local Python script for realtime display and recording. The unit is handheld in size but not *truly* hand-held since it needs to be powered through the USB-C connector.
+CAD and programs for a custom handheld force gauge. User interface allows for changing units (N/kg), setting tare (zeroing), recording min/max values, and switching screen orientation. Onscreen values are broadcasted with Bluetooth and a local Python script allows for realtime display and data recording into a csv file.
 
 ![Force Gauge Video](ForceGauge_shortvideo.gif)
 
@@ -9,9 +9,12 @@ CAD and programs for a custom handheld force gauge. User interface allows for ch
 3. solder protoboard according to ForceGauge_Schematic.pdf
 4. assemble components on protoboard
 5. upload and run ForceGauge_Program.ino on XIAO module (compile w/ mbed-enabled)
-6. use the sensor! Tactile switches have two functions each selectable with short and long press of the button
-7. if bluetooth communication is desired run ForceGauge_Python_BLE_Logger.py from your local machine where Python is installed, a window will open displaying the values read by the sensor and the program will record them in a csv file with timestamps.<br/>
-**Note:** local recording will overwrite the previous file if it exists, rename your files if you want to keep them! 
+6. plug the usb-c connector to a suitable power supply
+7. use the sensor! Tactile switches have two functions each, selectable with short or long press of the button
+8. if bluetooth communication is desired run ForceGauge_Python_BLE_Logger.py from your local machine where Python is installed, a window will open displaying the values read by the sensor and the program will record them in a csv file with timestamps.<br/>
+**Notes:**
+- local recording will overwrite the previous file if it exists, **rename your files if you want to keep them!**
+- power can be provided by a standard phone/laptop usb-c charger or a power bank for maximal portability. Careful though, certain power banks will shut down after a short while because not enough current is pulled. Use a powerbank capable of trickle charging.
 
 ## Bill of Materials (BOM)
 
@@ -34,8 +37,8 @@ CAD and programs for a custom handheld force gauge. User interface allows for ch
 
 **Notes:** 
 - if you use another XIAO microcontroller the Arduino program might need to be updated especially if the one you pick has no Bluetooth capability
-- the CHBLFSN8 mounting bracket used here is for 4040 extrusions but other mounting brackets for either 4040 or 3030 profiles could also be used and might be easier/cheaper to find than Misumi's. Adjust the size of the rectangular hole in the base plate STP file accordingly. File down the tabs of the bracket you used if there are any.
-- check the components you have before buying the kits listed in the BOM, most components such as tactile switches, resistors, M6 screws, etc. do not need to be the exact model from the BOM, if you have already some parts at hand you can probably use them.
+- the CHBLFSN8 mounting bracket used here is meant for 4040 extrusions but other mounting brackets for either 4040 or 3030 profiles could also be used and might be easier/cheaper to find than Misumi's. Adjust the size of the rectangular hole in the base plate STP file accordingly. File down the tabs of the bracket you used if there are any.
+- check the components you have laying around before buying the kits listed in the BOM, most components here such as tactile switches, resistors, M6 screws, etc. do not need to be the exact model from the BOM, if you have already some parts at hand you can probably use them.
 
 by Lionel Birglen  <br />
 Polytechnique Montreal, 2026
