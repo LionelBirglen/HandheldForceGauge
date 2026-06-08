@@ -3,7 +3,7 @@ CAD and programs for a quick and simple handheld force gauge. User interface all
 
 ![Force Gauge Picture](ForceGauge_Picture.png)
 ![Force Gauge Video](ForceGauge_shortvideo.gif)
-<br/>
+<br/><br/>
 
 ## Instructions
 1. 3D print ForceGauge_BasePlate.stp, Color change for the text layer is suggested
