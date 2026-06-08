@@ -12,7 +12,7 @@ CAD and programs for a quick and simple handheld force gauge. User interface all
 4. assemble components on protoboard
 5. upload and run the Arduino program ForceGauge_Program.ino on the XIAO nrf52840 module (compile w/ mbed-enabled)
 6. plug the usb-c connector to a suitable power supply
-7. use the sensor! Tactile switches have two functions each, **selectable with short or long press** of the button
+7. use the sensor! Tactile switches have two functions each, **selectable with short or long press** of the button:
 8. if bluetooth communication is desired run ForceGauge_Python_BLE_Logger.py from your local machine where Python is installed, a window will open displaying the values read by the sensor and the program will record them in a csv file with timestamps.<br/><br/>
 
 **Notes:**
@@ -21,6 +21,13 @@ CAD and programs for a quick and simple handheld force gauge. User interface all
 - values provided in the program are set for a 100kg load cell and need to be adjusted for your sensor and/or other load cell.
 - the hook on the left of the aluminium mounting bracket is mean to hold loops of the wires from the load cell to the transducer keeping things tidy.
 <br/>
+
+## Manual
+| Button # | Short Press | Long Press
+|---|---|---|
+| 1 | set zero (tare) | switch display orientation upside down|
+| 2 | switch display unit: N or Kg |  switch recording mode: instantaneous values vs. min/max recording |
+
 
 ## Bill of Materials (BOM)
 
