@@ -27,14 +27,14 @@ CAD and programs for a custom handheld force gauge. User interface allows for ch
 | XIAO nrf52840 | 1 | [SeeedStudio](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html), need to solder male headers or purchase one with presoldered ones|
 | Qwiic Scale NAU7802 | 1 |  [Sparkfun](https://www.sparkfun.com/sparkfun-qwiic-scale-nau7802.html) |
 | 0.96in OLED Display | 1 |  [Amazon kit](https://www.amazon.com/ELEGOO-Display-Compact-Self-Luminous-Projects/dp/B0D2RMQQHR) |
-| Protoboard | 1 | 5cm x 7cm with a 2.54mm pitch [Amazon kit](https://www.amazon.com/ELEGOO-Prototype-Soldering-Compatible-Arduino/dp/B072Z7Y19F) |
+| Protoboard | 1 | 5cm x 7cm with a 2.54mm pitch, e.g. from this [Amazon kit](https://www.amazon.com/ELEGOO-Prototype-Soldering-Compatible-Arduino/dp/B072Z7Y19F) |
 | Tactile switches | 2 | [Amazon kit](https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2)  |
 | 3k3 resistors | 2 |  any value between 1k and 10k at 1/4W should be fine, through hole |
 | Load Cell | 1 |  100kg S-shape from [Robotshop](https://www.robotshop.com/products/type-s-load-cell-100-kg) or [Amazon](https://www.amazon.com/Portable-High-Precision-Pressure-Tension-Weighing/dp/B077YHNNCP) |
 | M6x12 screw w/ washer| 1 |  [Amazon kit](https://www.amazon.com/MklusiveTech-141Pcs-Screw-Kit-Electronics/dp/B0DYF25FF6) |
-| CHBLFSN8 mounting bracket | 1 | Baked-on finish (Silver) 43x30 footprint with 8mm holes [Misumi](https://us.misumi-ec.com/vona2/detail/110300449520/) |
+| CHBLFSN8 mounting bracket | 1 | Baked-on finish (Silver) 43x30 footprint with 8mm holes from [Misumi](https://us.misumi-ec.com/vona2/detail/110300449520/) |
 | M6 hook | 1 | [Amazon](https://www.amazon.com/Faspiroty-Stainless-Question-Hanging-Connecting/dp/B0DKNBMYKB) (optional)  |
-| Base plate | 1 |  3D printed from STEP file |
+| Base plate | 1 |  3D printed from STEP file ForceGauge_BasePlate.stp |
 | Braces | 2 |  3D printed from ForceGauge_Brace_QwiicScale.step and ForceGauge_Brace_OLEDDisplay.step |
 | Self-tapping screws | 16 | for plastics, [Amazon kit](https://www.amazon.com/Zmbroll-Self-Tapping-Phillips-Sheetmetal-Electronic/dp/B0F62XS2YC)  |
 | Female headers | 4 | need 1x4, 1x6, 2x7 all with 2.54mm pitch, [Amazon kit](https://www.amazon.com/Ruibapa-Connector-Assortment-Straight-P-037/dp/B0B96WXT46) |
