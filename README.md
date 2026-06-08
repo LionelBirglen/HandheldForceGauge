@@ -24,7 +24,7 @@ CAD and programs for a custom handheld force gauge. User interface allows for ch
 
 | Name | # | Link/Description 
 |---|---|---|
-| XIAO nrf52840 | 1 | [SeeedStudio](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) |
+| XIAO nrf52840 | 1 | [SeeedStudio](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html), need to solder male headers or purchase one with presoldered ones|
 | Qwiic Scale NAU7802 | 1 |  [Sparkfun](https://www.sparkfun.com/sparkfun-qwiic-scale-nau7802.html) |
 | 0.96in OLED Display | 1 |  [Amazon kit](https://www.amazon.com/ELEGOO-Display-Compact-Self-Luminous-Projects/dp/B0D2RMQQHR) |
 | Protoboard | 1 |  2.54mm pitch [Amazon kit](https://www.amazon.com/ELEGOO-Prototype-Soldering-Compatible-Arduino/dp/B072Z7Y19F) |
