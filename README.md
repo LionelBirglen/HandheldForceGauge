@@ -1,6 +1,7 @@
 # Handheld Force Gauge
 CAD and programs for a custom handheld force gauge. User interface allows for changing units (N/kg), setting tare (zeroing), recording min/max values, and switching screen orientation. Onscreen values are broadcasted with Bluetooth and a local Python script allows for realtime display and data recording into a csv file. 
 
+![Force Gauge Picture](ForceGauge_Picture.png)
 ![Force Gauge Video](ForceGauge_shortvideo.gif)
 
 ## Instructions
