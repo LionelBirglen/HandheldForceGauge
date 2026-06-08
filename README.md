@@ -44,6 +44,7 @@ CAD and programs for a custom handheld force gauge. User interface allows for ch
 - if you use another XIAO microcontroller the Arduino program might need to be updated especially if the one you pick has no Bluetooth capability
 - the CHBLFSN8 mounting bracket used here is meant for 4040 extrusions but other mounting brackets for either 4040 or 3030 profiles could also be used and might be easier/cheaper to find than Misumi's. Adjust the size of the rectangular hole in the base plate STP file accordingly. File down the tabs of the bracket you used if there are any.
 - check the components you have laying around before buying the kits listed in the BOM, most components here such as tactile switches, resistors, M6 screws, etc. do not need to be the exact model from the BOM, if you have already some parts at hand you can probably use them.
+<br/>
 
 ## Arduino Library Requirements
 SparkFun Qwiic Scale NAU7802<br/>
