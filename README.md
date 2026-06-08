@@ -11,7 +11,7 @@ CAD and programs for a custom handheld force gauge. User interface allows for ch
 5. upload and run ForceGauge_Program.ino on XIAO module (compile w/ mbed-enabled)
 6. plug the usb-c connector to a suitable power supply
 7. use the sensor! Tactile switches have two functions each, selectable with short or long press of the button
-8. if bluetooth communication is desired run ForceGauge_Python_BLE_Logger.py from your local machine where Python is installed, a window will open displaying the values read by the sensor and the program will record them in a csv file with timestamps.<br/>
+8. if bluetooth communication is desired run ForceGauge_Python_BLE_Logger.py from your local machine where Python is installed, a window will open displaying the values read by the sensor and the program will record them in a csv file with timestamps.<br/><br/>
 **Notes:**
 - local recording will overwrite the previous file if it exists, **rename your files if you want to keep them!**
 - power can be provided by a standard phone/laptop usb-c charger or a power bank for maximal portability. Careful though, certain power banks will shut down after a short while because not enough current is pulled. Use a powerbank capable of trickle charging.
