@@ -21,7 +21,7 @@
 #include <ArduinoBLE.h>
 
 #define SCREEN_WIDTH 128
-#define SCREEN_HEIGHT 32
+#define SCREEN_HEIGHT 32  //Yes the screen actual height is 64
 #define OLED_RESET     -1
 #define SCREEN_ADDRESS 0x3C
 
