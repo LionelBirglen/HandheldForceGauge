@@ -1,5 +1,5 @@
 # Handheld Force Gauge
-CAD and programs for a custom handheld force gauge. User interface allows for changing units (N/kg), setting tare (zeroing), recording min/max values, and switching screen orientation. Onscreen values are broadcasted with Bluetooth and a local Python script allows for realtime display and data recording into a csv file.
+CAD and programs for a custom handheld force gauge. User interface allows for changing units (N/kg), setting tare (zeroing), recording min/max values, and switching screen orientation. Onscreen values are broadcasted with Bluetooth and a local Python script allows for realtime display and data recording into a csv file. 
 
 ![Force Gauge Video](ForceGauge_shortvideo.gif)
 
@@ -16,6 +16,7 @@ CAD and programs for a custom handheld force gauge. User interface allows for ch
 **Notes:**
 - local recording will overwrite the previous file if it exists, **rename your files if you want to keep them!**
 - power can be provided by a standard phone/laptop usb-c charger or a power bank for maximal portability. Careful though, certain power banks will shut down after a short while because not enough current is pulled. Use a powerbank capable of trickle charging.
+- values provided in the program are set for a 100kg load cell and need to be adjusted for your sensor and/or other load cell.
 
 ## Bill of Materials (BOM)
 
@@ -27,7 +28,7 @@ CAD and programs for a custom handheld force gauge. User interface allows for ch
 | Protoboard | 1 |  2.54mm pitch [Amazon kit](https://www.amazon.com/ELEGOO-Prototype-Soldering-Compatible-Arduino/dp/B072Z7Y19F) |
 | Tactile switches | 2 | [Amazon kit](https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2)  |
 | 3k3 resistors | 2 |  any value between 1k and 10k at 1/4W should be fine, through hole |
-| Load Cell | 1 |  [Robotshop](https://www.robotshop.com/products/type-s-load-cell-100-kg) or [Amazon](https://www.amazon.com/Portable-High-Precision-Pressure-Tension-Weighing/dp/B077YHNNCP) |
+| Load Cell | 1 |  100kg S-shape from [Robotshop](https://www.robotshop.com/products/type-s-load-cell-100-kg) or [Amazon](https://www.amazon.com/Portable-High-Precision-Pressure-Tension-Weighing/dp/B077YHNNCP) |
 | M6x12 screw w/ washer| 1 |  [Amazon kit](https://www.amazon.com/MklusiveTech-141Pcs-Screw-Kit-Electronics/dp/B0DYF25FF6) |
 | CHBLFSN8 mounting bracket | 1 | Baked-on finish (Silver) 43x30 footprint with 8mm holes [Misumi](https://us.misumi-ec.com/vona2/detail/110300449520/) |
 | M6 hook | 1 | [Amazon](https://www.amazon.com/Faspiroty-Stainless-Question-Hanging-Connecting/dp/B0DKNBMYKB) (optional)  |
