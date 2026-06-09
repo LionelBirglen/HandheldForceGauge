@@ -28,6 +28,7 @@ CAD and programs for a quick and simple handheld force gauge. User interface all
 | 1 | set zero (tare) | switch display orientation upside down|
 | 2 | switch display unit: N or Kg |  switch recording mode: instantaneous values vs. min/max recording |
 <br/>
+Video demonstration: [https://www.youtube.com/watch?v=c7aWqw2UN0I](https://www.youtube.com/watch?v=c7aWqw2UN0I)
 
 ## Bill of Materials (BOM)
 
